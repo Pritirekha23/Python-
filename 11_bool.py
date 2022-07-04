@@ -37,9 +37,11 @@ print(True-False)
 print(True-True)
 #13
 print(False-False)
-#14 producing erros bcz in python True and in java is true
+#14
+print(True%True)
+#15 producing erros bcz in python True and in java is true
 s=true
 print(s)
-#15  producing erros bcz in python False and in java is false
+#16  producing erros bcz in python False and in java is false
 b1=false
 print(b1)
