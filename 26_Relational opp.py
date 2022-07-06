@@ -1,0 +1,41 @@
+#3 RELATIONAL OPERATOR
+#1
+a=10
+b=20
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+#2
+a='aaa'
+b='bbb'
+print(a>b)
+print(a<b) 
+#3
+print("####")
+name='Surendra'
+name1='Surendra'
+print(name<name1)
+print(name>name1)
+print(name<=name1)
+print(name>=name1)
+print(name==name1)
+#4
+print("####")
+print(10<20<30<40<50)
+print(10<20<90<34)
+#5
+print("####")
+#Equality operator(== and !=)
+print(10==10)
+print(10!=10)
+print(1000!=166)
+print(10==30==56==34)
+print(10==10==10==10)
+#6
+#aplying in string
+print('surendra'=='Surendra')
+print('surendra'=='surendra')
+print(10=='surendra')
+print('100'=='surendra')
+print('Surendra'!='surendra')
