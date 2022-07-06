@@ -31,3 +31,10 @@ a=complex(input('enter a' ))
 b=complex(input('enter b'))
 c=a+b
 print(c) 
+
+
+
+
+
+
+
