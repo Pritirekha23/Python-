@@ -1,10 +1,10 @@
 # WAp to calculate the mark of a student in 6 subjects then calculate the total mark,avg mark and grade
 # avg>=90(O grade)
 #avg>=80 and avg<=89(E grade)
-#avg>=70 and avg<=79(E grade)
-#avg>=60 and avg<=69(E grade)
-#avg>=50 and avg<=59(E grade)
-#avg>=40 and avg<=49(E grade)
+#avg>=70 and avg<=79(A grade)
+#avg>=60 and avg<=69(B grade)
+#avg>=50 and avg<=59(C grade)
+#avg>=40 and avg<=49(D grade)
 # otherwise fail ----
 math=int(input('Enter your math mark'))
 eng=int(input('enter your english mark'))

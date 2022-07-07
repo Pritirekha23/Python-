@@ -1,4 +1,4 @@
-#input a student mark and check tyhe result
+#input a student mark and check the result
 #pass or fail instruction -- mark>=33 pass
 # if  (here it will check both condition ,if u want check one condition then this is better)
 print('if statement')
