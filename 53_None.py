@@ -6,8 +6,7 @@ print('None1')
 p='priti'
 print(p)
 p=None
-print(p)
-#2
+print(p2
 print('None2')
 p='priti'
 print(p)

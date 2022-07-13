@@ -42,7 +42,7 @@ for i in range(100,121,2):
 
 
 #8) working with string::::---i is ittereting with number of items
-#it will print individual character in new line(vertical)
+# #it will print individual character in new line(vertical)
 name='pritirekha panda'
 for i in name:
     print(i)
