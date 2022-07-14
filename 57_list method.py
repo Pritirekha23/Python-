@@ -118,7 +118,7 @@ print(l)
 # if u want to remove any specified element then we have to provide that specified element index .
 print('pop method ex-1')
 l=[32,44,55,66,77,777]
-#print(l.pop())  #if u print like this then it will give that value which one is delete or u want delete
+#print(l.pop())  #if u print like this then it will give that value which one is deleted or u want delete
 l.pop()
 # it will renmove the lastone i.e here 777
 print(l)
