@@ -197,7 +197,7 @@ print(l)
     #(ii)--but if the list contain string then it will work in alphabet order (just like english dictionary)
     #(iii) if the list contain heterogeneous elements then in this case sort() will not work  , but it will work on python 2nd version...1st it will print the numbers after that it will prit string data.
 #example of ii
-print('sorting od string example of (ii)')
+print('sorting of string example of (ii)')
 l=['smruti','jyoti','swati','priti']
 l.sort()
 print(l)
