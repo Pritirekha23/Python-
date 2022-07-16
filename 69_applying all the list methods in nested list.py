@@ -81,7 +81,7 @@ l=[10,20,30,[40,50,60],70,80,90]
 l.insert(3,444)
 print(l)
 
-
+# we cant sort list with individual element(int)
 #sort()
 print('sort of the list')
 l=[10,20,30,[40,50,60],70,80,90]
@@ -90,3 +90,4 @@ print(l)
 print('after sort')
 l.sort()
 print(l)
+
