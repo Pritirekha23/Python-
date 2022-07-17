@@ -12,12 +12,13 @@ for i in range(10):
 #2
 print('break statement ex2')
 for i in range(10):
-     if i==7:
+    if i==7:
        break
+    print(i)
 
 
 #B continue(skip) -- it will go back to the loop
-# continue means if u wanr skip some itteration or part then go for continue
+# continue means if u want skip some itteration or part then go for continue
 #1
 print('continue statement ex1')
 for i in range(10):
@@ -25,9 +26,9 @@ for i in range(10):
         continue
     print(i)
 
-#2  here 50 is not present bcz the range is 10 so it will print 1 to 10
+#2  here 50 is not present bcz the range is 11 so it will print 1 to 10
 print('continue statement ex2')
-for i in range(10):
+for i in range(11):
     if i==50:
         continue
     print(i)

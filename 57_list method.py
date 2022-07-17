@@ -26,8 +26,8 @@ for i in range(21):
     l.append(i)
 print(l)
 
-#(b)--->insert() method-- it is used to insert itemat specific location(index),here location is required
-# drawback of append()--it will add element at the end only---but as a programmer sometimes we have a requirement to add the element as a specific position 
+#(b)--->insert() method-- it is used to insert item at specific location(index),here location is required
+# drawback of append()--it will add element at the end only---but as a programmer sometimes we have a requirement to add the element at a specific position 
 #so we cant solve this by using append(),so insert() came into the picture
 #1)ex-1
 print('This is insert method')
@@ -111,7 +111,7 @@ l.remove(18)
 print(l)
 #l.remove(444)     # here we will get an value error bcz 444 is not present in the list 
 #print(l)
-#print(l.remove(12))   #here it will give blank as output ,bcz here does not return anything ,so why we print this...
+print(l.remove(12))   #here it will give blank as output ,bcz here does not return anything ,so why we print this...
 
 #(f)   pop()---> by default  it is used to remove and return the last element of the list
 # it will work on two way  one is default bhv  and another is based on our requirement 
@@ -120,7 +120,7 @@ print('pop method ex-1')
 l=[32,44,55,66,77,777]
 #print(l.pop())  #if u print like this then it will give that value which one is deleted or u want delete
 l.pop()
-# it will renmove the lastone i.e here 777
+# it will remove the lastone i.e here 777
 print(l)
 #print(l.pop(1))
 l.pop(1)
@@ -170,7 +170,12 @@ print(l2)
 #(h) reverse() method-->
    #it is used to  reverse a list
 #example -1
-print('reverse method ')
+print('reverse method ex1 ')
+l=[65,76,22,660,777]
+l.reverse()
+print(l)
+
+print('reverse method ex2')
 l=[65,76,22,660,777]
 l.reverse()
 print(l)
@@ -202,17 +207,17 @@ l=['smruti','jyoti','swati','priti']
 l.sort()
 print(l)
 #example of iii--
-#print('sorting od string example of (iii)')
-#l=['smruti','jyoti','swati','priti',88,77,443]  
+#print('sorting of heterogeneous example of (iii)')
+#l=['smruti','jyoti','swati','priti',88,77,443]   
 #l.sort()
-#print(l)
+#print(l)  #but in python 2nd version
 #type error is occured here
 
 
 
 #(j)  clear() method-->
   # it is used to clear or remove all the elements of list . clear means not delete.
-#here list are present and eleemnts are delted from the list so it will give  a empty list
+#here list are present and eleemnts are delted from the list so it will give  an empty list
 #example-1
 print('clear method example 1')
 l=[1,2,3,4,5,6]

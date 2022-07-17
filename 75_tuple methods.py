@@ -65,7 +65,7 @@ print(t1)
 print('sorted a tuple in descending ')
 t=(222,6,3,8,98,7,76)
 t1=sorted(t,reverse=True)
-print(t1)
+print(t1)''
 
 
 #8  tuple packing and  unpacking
@@ -78,6 +78,7 @@ d='surendra'
 e='2.2'
 t=a,b,c,d,e     #packing
 print(t)
+print(type(d))
 print(type(t))
 
 #NOTE:-
@@ -95,6 +96,11 @@ def fun():
     return(l[0],l[2],l[3])
 t=fun()
 print(t)
+
+
+
+
+
 
 
 

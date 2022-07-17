@@ -11,6 +11,7 @@ for i in range(3):
         print('*')
 
 #3
+print('three')
 for i in range(3):
     for j in range(3):
         print('*',end='') #after this line we want a space

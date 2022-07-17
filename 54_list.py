@@ -82,7 +82,7 @@ l=[23,{'name':'Kimnamjoon'},list((10.20,76))]
 print(l)
 
 #method-5
-#creation of list by using spli()function::
+#creation of list by using split()function::
 #whenever we will get a space i want to spli it
 #ex-1
 print('split')

@@ -25,7 +25,7 @@ print(l) #error
 print('in the case of list we can delete individual elements')
 l=[10,20,30,40,50]
 print(l)
-del(2)
+del(l[2])
 print(l)  #output is [10,20,40,50]
 
 #NOTE :
