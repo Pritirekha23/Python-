@@ -1,5 +1,5 @@
 #WAP to print list in reverse order
-#way 1-- suing +ve index
+#way 1-- using +ve index
 
 print('way 1 using +ve index')
 l=[10,20,30,40,50]

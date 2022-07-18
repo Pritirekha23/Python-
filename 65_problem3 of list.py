@@ -1,7 +1,8 @@
 #input
 # l=['Smruti','Priti','Jyoti','Swati']
 #output
-# 
+#['Si', 'Pi', 'Ji', 'Si']
+
 print('way 1')
 l=['Smruti','Priti','Jyoti','Swati']
 new_List=[]

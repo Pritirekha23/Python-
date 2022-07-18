@@ -1,4 +1,4 @@
-#set methods
+#set methods part1
    # add() ,update(),remove(),discard(),pop(),copy(), clear(),enumerate(),max(),min(),sum(),sorted()
  #these are normal methods that u can apply with any data structure .
 
@@ -77,7 +77,7 @@ print(s)
 
 # discard()
   # It is also used to remove the element from the set .
-  #if the specified element is not present then it will Wnot raise any error .
+  #if the specified element is not present then it will Wont raise any error .
   # 
 
 print('discard ex-1')

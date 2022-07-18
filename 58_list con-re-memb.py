@@ -1,5 +1,5 @@
 #CONCATENATE OF LIST
-#  jointing oflist is known as Concatation of list.
+#  jointing of list is known as Concatanation of list.
 # + operator  is used to concatenate list.
 # we can concatenate multiple list
 # u can only concatenate list .
