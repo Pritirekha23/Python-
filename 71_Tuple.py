@@ -2,7 +2,7 @@
    # It is immutable(unchangable)
    #it is similar to list data structure . It is a inbuilt data structure .
    #paranthesis  symbol is used to create tuple.
-
+  # u can use as a dictionary key as tuple .
 #CREATION OF TUPLE IN DIFFERENT WAY
 
 #1 CREATION of empty tuple
@@ -48,5 +48,3 @@ print(t)
 #7 creation of tuple by using string
 t=tuple('priti')
 print(t)
-
-

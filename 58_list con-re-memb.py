@@ -44,7 +44,7 @@ print(r)
 
 #REPETITION OF LISTS
   # REPETITION  means it will repeat based on specified number of times 
-  # * opeartor is used to repear the list.
+  # * opeartor is used to repeat the list.
   #here we cant give the float value . it accept only integer .
   #we cant multiply l*l
   #example 1
@@ -70,7 +70,7 @@ print(r)
 
 
 #MEMBERSHIP IN LISTS---
- # it is  used to check whether the specified element is the member of the particular list or not.
+ # it is  used to check whether the specified element is the member of the perticular list or not.
  #there are 2 operator we will use to check membership .
  # (i) in operator (ii) not in operator
 

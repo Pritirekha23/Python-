@@ -236,12 +236,12 @@ print(l)
 
 
 #(k) copy() method-->
-  # It is used for shallow copy ,here shallow copy means if we made any modification in the new list wont be reflected in the originsl list .
+  # It is used for shallow copy ,here shallow copy means if we made any modification in the new list wont be reflected in the original list .
   #Both list will pointing to different memory location .
    #copy--different ,assign--same
 #example-1
 print('copy method ex-1')
-l1=[23,44,66,77,88]
+l1=[23,44,66,77,88] 
 l2=l1.copy()   #cloning
 print(l1)
 print(l2)
@@ -255,7 +255,7 @@ print(l2)
 
 #ASSIGNING (equals to )
 #example of assigning
-#if we made any modification in the new list will  be reflected in the originsl list .
+#if we made any modification in the new list will  be reflected in the original list .
   #Both list will pointing to same memory location 
 print('assigning method ex-')
 l1=[23,44,66,77,88]

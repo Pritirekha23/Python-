@@ -3,7 +3,7 @@
  # 2)count  
  # 3) cmp() -> now  it is outdated it is available in python 3
 
-# list all  methods are used to modify the list ,so those fumctions are not available in tuple
+# list all  methods are used to modify the list ,so those functions are not available in tuple
 
 
 # we can use other normal method along with tuple

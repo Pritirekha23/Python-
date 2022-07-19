@@ -7,7 +7,7 @@ print('for else without break')
 for i in range(10):
     print(i)
 else:
-    print('i am else block if the else block executed succssfully then only i will execute')
+    print('i am else block if the for block executed succssfully then only i will execute')
 
 #2  if break executed inside for loop then else block wont be execute
 print('for else with break')
@@ -16,4 +16,4 @@ for i in range(10):
         break
     print(i)
 else:
-    print('i am else block if the else block executed succssfully then only i will execute')
+    print('i am else block if the else for executed succssfully then only i will execute')

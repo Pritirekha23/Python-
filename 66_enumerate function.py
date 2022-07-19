@@ -6,6 +6,8 @@ l=[65,74,23,90,12]
 for i in enumerate(l):
     print(i)
 
+
+
 #good way
 print('This is the example 1 of enumerate function way 2')
 l=[65,74,23,90,12]
