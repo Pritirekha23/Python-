@@ -10,8 +10,11 @@ while True:
         break
 while True:
     bf=input('enter your bf name to get gf name::')
-    gf=d.get(bf)
-    print(f'Hi {bf} your gf name is {gf}') 
+    gf=d.get(bf,0)
+    if gf==0:
+        print('sry bf name is not available')
+    else:
+        print(f'Hi {bf} your gf name is {gf}') 
     choice=input('do u want to search more items[y/n]')
     if choice=='n':
         break
