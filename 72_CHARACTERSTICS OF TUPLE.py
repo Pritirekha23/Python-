@@ -18,7 +18,7 @@ t=(10,20,30,40)
 print(t[1])
 
 #3  Tuple can hold different data item 
-t=(45,6.6,'priti','False')
+t=(45,6.6,'priti',False)
 print(t)
 
 #4 Duplicate elements are allowed .

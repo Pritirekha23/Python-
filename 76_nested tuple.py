@@ -6,11 +6,18 @@ print(t[0])
 print(t[0][1])
 
 for i in t:
-    print(t)
+    print(i)
 
-
+print('hshhsshs')
+t=(('Raghuvaran','Shyam',14.7),('Govind','Navkishor',45.7))
+print(t[0])
+print(t[0][1])
+print(t[1][2])
+for i in t:
+ print(i) 
 
 #inside a nested tuple  i can create a list and i can modify that list
+print('ttt')
 t=((28,'surendra',6.4),33,[8677,6,6.4])
 print(t[-1])
 t[-1][1]='panda'  # it can be modify bcz that is a list
@@ -21,6 +28,7 @@ print(t)
 
 #TUPLE COMPREHNSION
     # it is not possible ------ it will going to return   a generator object ,,<generator object <genexpr> at 0x000002197F009A10>
+print('t222')
 t=(i for i in range(10))
 print(t)
 print(type(t))

@@ -1,6 +1,6 @@
 #Tuple--
    # It is immutable(unchangable)
-   #it is similar to list data structure . It is a inbuilt data structure .
+   #it is similar to list data structure . It is a inbuild data structure .
    #paranthesis  symbol is used to create tuple.
   # u can use as a dictionary key as tuple .
 #CREATION OF TUPLE IN DIFFERENT WAY
@@ -24,7 +24,7 @@ print(t)
 print(type(t))
 
 #3 creation of tuple with different data items
-t=(46,'priti',4.4,'True')
+t=(46,'priti',4.4,True)
 print(t)
 
 #4  creation of tuple without using paranthesis

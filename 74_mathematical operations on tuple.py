@@ -8,7 +8,8 @@ t2=(44,66,77,88)
 t3=('priti','sonu','4.4')
 t=t1+t2+t3
 print(t)
-
+t=t2+t1+t3
+print(t)
 
 #2  Repetition operation on tuple(*)
 print('  Repetition operation on tuple')

@@ -1,12 +1,12 @@
 #list comprehnsion
 # WHAT IS THE REQUIREMENT OF list comprehnsion?
-   # ANS--- If u want to create a list from iterable objects like list,tuple,range,dict etc. by writting very less code in efficient way then we can go for list comorehsions.
+   # ANS--- If u want to create a list from iterable objects like list,tuple,range,dict etc. by writting very less code in efficient way then we can go for list comorehensions.
  #advantages:
      # we will creat iterable objects--list,tuple,dict etc
      #performance wise it is very good(taking less time)
      #less code
     #example
-from ast import comprehension
+
 
 
 print('ex-1')
@@ -27,7 +27,7 @@ print(l)
 
 
 
-print('with list comphrension ex-5')
+print('with list comprehension ex-5')
 l=[i for i in range(1,21) if i%2==0]
 print(l)
 
@@ -39,7 +39,7 @@ for i in range(1,21):
 print(l)
 #ex6
 # name=['surendra','priyanka','zini']
-#expected output : ['s','p','r','z']
+#expected output : ['s','p','z']
 print('ex-6')
 name=['surendra','priyanka','zini']
 l=[i[0] for i in name]
@@ -58,7 +58,7 @@ l=[i for i in name if 'a' in i]
 print(l)
 
 
-# creat a list ,if the name is priyanka instead of priyanka add hello
+# create a list ,if the name is priyanka instead of priyanka add hello
 print("")
 name=['surendra','priyanka','zini']
 l=[i if i!='priyanka' else 'hello' for i in name]

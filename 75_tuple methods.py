@@ -23,7 +23,7 @@ print(t.index(76))
 t=(22,66,76,87,98,76,76)
 print(t.count(76))
 
-#3 cmp() function -- is used to  compare tuples but in pyhton 3 version onwards it ie outdated .
+#3 cmp() function -- is used to  compare tuples but in pyhton 3 version onwards it is outdated .
 # it is outdated .
  
 #print('cmp function')
@@ -65,7 +65,7 @@ print(t1)
 print('sorted a tuple in descending ')
 t=(222,6,3,8,98,7,76)
 t1=sorted(t,reverse=True)
-print(t1)''
+print(t1)
 
 
 #8  tuple packing and  unpacking
@@ -87,7 +87,8 @@ print(type(t))
 t=(2,4,5,'prit',5.5)
 a,b,c,d,e=t
 print(a,b,c,d,e)
-
+print(type(t))
+print(type(d))
 
 #by using tuple we can return multiple value from function
 # in python a function can return multiple value
