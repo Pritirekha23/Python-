@@ -9,11 +9,11 @@
   # {} curly brackets is used to create set data structure .
   # NOTE:-
     # set--mutable , setelemnts-immutable   
-      # We can modify set but we cant modify its content ,hence set is mutable but its elements are immutable in natureb .
+      # We can modify set but we cant modify its content ,hence set is mutable but its elements are immutable in nature.
 
 
 
-# creation of set in different wat
+# creation of set in different way
 
 #1  creation of empty set
 #s={}
@@ -44,6 +44,7 @@ print(type(s))
 
 #creation of set using set() function
     #creation of set from list
+print('from list')
 l=[33,44,55,66]
 s=set(l)
 print(s)
@@ -95,3 +96,9 @@ print('priti' in s)
 print('til' not in s)
 print('prit' in s)
 print('til' in s)
+
+
+name='priti rekha panda'
+s=set(name.split())
+print(s)
+print(type(s))

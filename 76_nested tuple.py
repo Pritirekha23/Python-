@@ -42,7 +42,7 @@ print(type(t))
 
 # advantages of tuple
    # tuple is faster than list
-   # it can be used as ket for dictionary
+   # it can be used as key for dictionary
    #it is the read only version of list
 
 

@@ -23,5 +23,5 @@ print(s)
 r1='welcome to "python class'
 print(r1)
 #7 Can we use double coat inside double coat ,,,no it will give error
- r="Wlcome to "python"class"
+r="Wellcome to "python" class"
 print(r)
