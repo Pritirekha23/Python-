@@ -50,7 +50,8 @@ print(s)
 #s.update(88,99)
 #print(s)  #line 50, in <module> TypeError: 'int' object is not iterable
 #WHAT IS  THE DIFFERENCE BETWEEN add() and update()  ?
-   # add() is used to add an element into set where set is use to add multiple iterable(list,range,tuple etc) elemenets
+   # add() is used to add an element into set where update() is use to add multiple iterable(list,range,tuple etc) elemenets
+   
 
 print('update ex-4')
 s={2,5,6.6,56}
@@ -86,9 +87,9 @@ s.discard(6.6)
 print(s)
 
 
-print('discard ex-1')
-s={2,5,6.6,56}
-s.discard(696)
+print('discard ex-2')
+s={2,5,56}
+s.discard(78888)
 print(s)
 
 # DIFFEREMCE BETWEEN remove() and discard()?
@@ -153,7 +154,7 @@ print(s2)
 # clear()
   #it is used to remove all the lements from the set .
   #here set will not be deleted only elements are deleted
-print('copy ex-1')
+print('clear ex-1')
 s={23,55,66,76,56}
 print(s)
 s.clear()
@@ -170,7 +171,7 @@ s={65,74,23,90,12}
 for i,j in enumerate(s):
     print(i," ",j)
 
-# ex-3 it will give the result in the form of tuple .
+# ex-2 it will give the result in the form of tuple .
 print('enumerate ex-2')
 s={65,74,23,90,12}
 for i in enumerate(s):
@@ -185,6 +186,7 @@ for i,j in enumerate(s):
 print('max ex-1')
 s={65,74,23,90,12}
 print(max(s))
+print(min(s))
     
 # min()
 print('min ex-1')
@@ -205,3 +207,7 @@ print('sorted in ascending and descending order ex-2')
 s={65,74,23,90,12}
 print(sorted(s))
 print(sorted(s,reverse=True))
+
+
+
+

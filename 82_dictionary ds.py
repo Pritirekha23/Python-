@@ -4,9 +4,9 @@
         # but in dictionary we will store key and value as a pair thats why we will use dictionary .
 
 #WHAT IS DICTIONARY ?
-   #ANS-  It is a inbuild data structure in python , it is used to store key and value as a pair .
+   #ANS-  It is an inbuild data structure in python , it is used to store key and value as a pair .
        #we will use curly bracket to create dictionary
-#ex--    'name':'pritirekha panda'  here name is key and pritirekha panda is the dictionary .
+#ex--    'name':'pritirekha panda'  here name is key and pritirekha panda is the value .
 #example :--
 
 
@@ -25,7 +25,7 @@ print(myinfo)
 
 #CHARACTERSTICS OF DICTIONARY
   # Dictionary is mutable(changable) in nature so that we can perform modification based on our requirement .
-  # Duplicate keys(just like id orunique) are not allowed ,but duplicate values are allowed .
+  # Duplicate keys(just like id or unique) are not allowed ,but duplicate values are allowed .
   # dictionary is dynamic(growable) in nature means based on our requirement we can increase and decrease the size .
   # we cant aplly indexing and slicing concept in dictionary .
   # Heterogeneous elemnts are allowed .
@@ -34,9 +34,10 @@ print(myinfo)
 print('dictionary example 2')
 myinfo={
     'name':'pritirekha panda',
-    'Name':'Pritirekha23',
+    
     'email':'pandapriti@gmail.com',
-    'address':'Bhadrak'
+    'address':'Bhadrak',
+    'Name':'Pritirekha23'
 }
 print(myinfo)
 
@@ -98,7 +99,7 @@ roll={1:'priti',2:'Ani',3:'sruti'}
 print(2 in roll)
 print(2 not in roll)
 print(5 in roll)
-print(d)
+print(roll)
 
 # Traversing a dict
 print('traversing of dict ex 1')
@@ -116,17 +117,18 @@ for i in roll:
 
 # CREATE A DICTIONARY DYNAMICALY BY TAKING USER INPUT .
 print('CREATE A DICTIONARY DYNAMICALY BY TAKING USER INPUT ')
-d={}
+
+diii={}
 while True:
     key=input('enter the key::')
     val=input('enter the val::')
-    d[key]=val
-    choice=input('do u want to add more element[y/n]::').lower()
+    diii[key]=val
+    choice=input('do u want to add more element[Y/N]::').lower()
     if choice=='n':
         break
+print(diii)
 
-
-# add , modify ,delte dictionary item 
+# add , modify ,delete dictionary item 
   # add item :-
 print('add item in dict ex 1')
 roll={1:'priti',2:'Ani',3:'sruti'}
@@ -236,3 +238,12 @@ print(roll)
 
 
 
+diii={}
+while True:
+    key=input('enter the key::')
+    val=input('enter the val::')
+    diii[key]=val
+    choice=input('do u want to add more element[Y/N]::').lower()
+    if choice=='n':
+        break
+print(diii)

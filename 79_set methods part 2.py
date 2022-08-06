@@ -15,21 +15,21 @@ print(A|B)
 # intersertion() 
  #It will used to return all the common elements present in both set
 print('intersertion method')
-A={12,44,55,664}
-B={15,12,664,88}
+A={12,4,2,2,8}
+B={2,12,15,6}
 print(A.intersection(B))
 print(A&B)
 
 
 # difference()
- # it is used to rerun all the elements  present in set A not in B
+ # it is used to return all the elements  present in set A not in B
 print('diffrerence method')
 A={12,44,55,664}
 B={15,12,664,88}
 print(A.difference(B))
 print(A-B)
-
-
+print(B.difference(A))
+print(B-A)
 # symmetric_difference() 
  #It used to return all the element present in set A or B but not in both
  # excluding the common element it will return all other element

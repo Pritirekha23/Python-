@@ -1,4 +1,5 @@
 #Set comprehension
+#Set comprehension
    # WHAT IS THE REQUIREMENT OF set comprehension ?
       # If u want to create a set from the iterable objects like tuple,list,set,dict,range etc . by writing less
       # code in efficient way then we can go for set comprehensions .
@@ -23,7 +24,7 @@ print(s)
 
 
 print('creating set from list ex-1')
-l=[23,564,77,87,33]
+l=[2,4,6,8]
 s={i*2 for i in l}
 print(s)
 
@@ -73,7 +74,7 @@ s={i[0].upper() for i in name}
 print(s)
 
 #create a set from a list(name) by adding all the elements but if the element is priti then
-#instead of priyanka add daaa
+#instead of priti add jyoti
 name=['priti','smruti','kriti']
-s={i if i!='priti' else 'doo' for i in name}
+s={i if i!='priti' else 'jyoti' for i in name}
 print(s)

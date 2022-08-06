@@ -1,6 +1,6 @@
 #Frozenset 
 #it is the advance version of set .
-  # Forzenset is similar to set data structure but there is only difference is that forzenset is 
+  # Frozenset is similar to set data structure but there is only difference is that forzenset is 
   # immutable in nature ,so that we can perform modification operations .
   ### frozen set is immutable in nature so we cant use add(),remove(),kind of methods why bcz these will modify frozenset
 #creation of frozenset() from set
@@ -29,7 +29,7 @@ print(type(fs))
 #fs.add(88)  #atribute error
 #fs.remove(76)    #atribute error
 
-# we camn apply normal function which will not modify the frozen fumction
+# we can apply normal function which will not modify the frozen function
 # APPLYING OTHER FUMCTION
 
 print('ex-1')
@@ -39,7 +39,6 @@ fs3=frozenset([798,65])
 fs5=frozenset([98,56])
 fs4=fs1.copy()
 print(fs4)
-
 print(fs1.union(fs2))
 print(fs1.intersection(fs2))
 print(fs1.difference(fs2))

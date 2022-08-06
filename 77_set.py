@@ -63,7 +63,8 @@ print(s)
 print(type(s))
 
   #creation of set from string
-name='pritirekha panda'
+print('from stirng')
+name='pritirekha'
 s=set(name)
 print(s)
 print(type(s))
@@ -78,7 +79,7 @@ print(type(s))
 
 #
 
-s=set('pritirekha panda')
+s=set('panda')
 print(s)
 print(type(s))
 
