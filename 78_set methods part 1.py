@@ -186,7 +186,7 @@ for i,j in enumerate(s):
 print('max ex-1')
 s={65,74,23,90,12}
 print(max(s))
-print(min(s))
+
     
 # min()
 print('min ex-1')

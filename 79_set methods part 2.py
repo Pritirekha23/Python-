@@ -22,7 +22,7 @@ print(A&B)
 
 
 # difference()
- # it is used to return all the elements  present in set A not in B
+ # it is used to return all the elements  present in set A not in B and vice versa
 print('diffrerence method')
 A={12,44,55,664}
 B={15,12,664,88}
@@ -50,7 +50,7 @@ print(B. issubset(A))   #True
 print(A.issubset(B))   #False
 
 # issuperset() 
-  # If  all the elements of B is present inside A then a is superset of B .
+  # If  all the elements of B is present inside A then A is superset of B .
 print(' issuperset method')
 A={12,44,55,88,15,444,664}
 B={15,12,664,88}
