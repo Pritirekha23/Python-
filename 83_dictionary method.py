@@ -14,7 +14,8 @@ print(d.get(5,'unknown'))
 #if the key is present and i am giving the default value then we will get the value present in that key value not the default val
 print(d.get(56,'unknown'))
 #print(d[5])  #keyerror
-
+print(d[1])
+#print(d[6])
 
 # items() 
 #in dict item means key and value both .
@@ -38,7 +39,7 @@ for i,j in d.items():
 # pop() -
 # remove and return 
 #if the key is not avialable then it will raise keyerror
-#it except one argument if will nort pass any argument then it will raise typeerror
+#it accept one argument if will not pass any argument then it will raise typeerror
 print('pop method ')
 d={1:'piti',2:'riti',3:'sriti',56:'rati'}
 print(d)
@@ -48,6 +49,10 @@ print(d)
 #print(d)
 #print(d.pop(78)) #keyerror
 #print(d)
+print(d.pop(56,2)) # it will give only 56 key val
+print(d)
+print(d.pop(222,3))
+print(d)
 
 
 

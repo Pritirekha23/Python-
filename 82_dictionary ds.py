@@ -170,8 +170,7 @@ print(roll)
 
 #DID U KNOW 
    # i)dict key are always immutable in nature that means we cant use  it list,set,dict as a dict key
-   # ii)hence we cant use list,set,dict as dictionary key why because they all are mutable
-   # in nature ,but we can use numbers,tuple,frozenset ,string as dict key otherwise we will get type error
+   # ii)hence we cant use list,set,dict as dictionary key why because they all are mutable in nature ,but we can use numbers,tuple,frozenset ,string as dict key otherwise we will get type error
 
 #i using list as key dict
 #print('example u cant use list as a key in dict----1')
