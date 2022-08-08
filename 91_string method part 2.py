@@ -122,7 +122,7 @@ print(s.center(20,'*'))
 
 print('center ex 3')
 s='sonu'
-print(s.center(23,'*'))
+print(s.center(7,'*'))
 
 
 

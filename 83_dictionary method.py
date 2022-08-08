@@ -79,7 +79,7 @@ print(d)
 
 
 # keys() 
- #it is used to return all the keys of the dict i the foorm of list
+ #it is used to return all the keys of the dict in the form of list
 print('keys method ex1')
 d={1:'piti',2:'riti',3:'sriti',56:'rati'}
 print(d.keys())
@@ -116,7 +116,7 @@ d={1:'piti',2:'riti',3:'sriti',56:'rati'}
 print(d)
 print(d.setdefault(10,'ruru'))
 print(d)
-print(d.setdefault(1,'ruru'))
+print(d.setdefault(41,'ruu'))
 print(d)
 print(d.setdefault(56)) #it will give that key value
 print(d) 
@@ -128,7 +128,6 @@ print(d)
   #adding or modifying
 print('update method ex1')
 d1={1:'piti',2:'riti',3:'sriti',56:'rati'}
-print('set default method ex1')
 d2={111:'rahul',66:'iam',333:'you are',506:'heyhey'}
 d1.update(d2)
 print('update d1')
@@ -136,13 +135,12 @@ print(d1) #update d1
 print(d2)
 print('update d2')
 d2.update(d1)
-print(d2)  #update dict
+print(d2)  #update d2
 print(d1)
 
 #if the both keys name are same then it will added the updated value  .
 print('update method ex2')
 d1={1:'piti',2:'riti',3:'sriti',56:'rati'}
-print('set default method ex1')
 d2={111:'rahul',2:'iam',333:'you are',506:'heyhey'}
 d1.update(d2)
 print('update d1')
@@ -161,7 +159,7 @@ print(id(d1))
 #any changes made on d1 is not reflect to d2 and vice versa bcz the id are different .
 d1[1]='college'
 print(d1)
-
+print(d2)
 
 
 print('assigning method ex')
@@ -175,6 +173,7 @@ print(id(d2))
 print(id(d1))
 d1[1]='college'
 print(d1)
+print(d2)
 
 
 # clear()

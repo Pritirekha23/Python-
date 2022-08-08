@@ -5,7 +5,7 @@ while True:
     bf=input('Enter bf name::')
     gf=input('Enter your gf name::')
     d[bf]=gf
-    choice=input('Do u want to more item[y/n]')
+    choice=input('Do u want to add more item[y/n]')
     if choice=='n':
         break
 while True:

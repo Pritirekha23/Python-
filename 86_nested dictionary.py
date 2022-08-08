@@ -3,8 +3,8 @@
 
 #example
 print('example 1 of nested dictionary ')
-d={1:{'name':'smruti'},2:{'name':'msmi'},3:{'name':'jyoti'},4:{'name':'priti'}}
-#print(d)
+d={1:{'name':'smruti'},2:{'name':'msmi'},3:{'me':'jyoti'},4:{'na':'priti'}}
+print(d)
 
 #only values
 for i in d.values():

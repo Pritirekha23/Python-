@@ -41,8 +41,10 @@ print(s1.upper())
 print('istitle function here 1st letter should be capital')
 s='Priti'
 s1='pRiti'
+
 print(s.istitle())
 print(s1.istitle())
+print(s1.title())
 
 
 print('isspace function')
@@ -50,7 +52,7 @@ s="   "
 s1=" . "
 print(s.isspace())
 print(s1.isspace())  # . is present so false 
-
+print(type(s))
 
 #changing case
 print('upper function --- here it convert all the lower character to upper character')
@@ -94,7 +96,7 @@ print('')
 s='hii i am pritirekha panda'
 print(len(s))
 print(s.count('p'))
-print(s.count('a',16))
+print(s.count('a',3))
 
 #replacement of starting
 print('replacement of starting')
