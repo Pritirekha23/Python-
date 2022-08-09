@@ -98,8 +98,8 @@ print(len(s))
 print(s.count('p'))
 print(s.count('a',3))
 
-#replacement of starting
-print('replacement of starting')
+#replacement of string
+print('replacement of string')
 s='python is bad programming'
 print(s.replace('bad','good'))
 print(s)

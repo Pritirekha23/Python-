@@ -204,7 +204,7 @@ print(d[frozenset(fs)])
 #d={{1:'tu'}:'priti',2:'Ani',3:'sruti'}
 #print(d)  #Type error
 
-#usingdict as a val
+#using dict as a val
 print('we can use dict as the value but we cant use as a key')
 d={1:{1:'tu'},2:'Ani',3:'sruti'}
 print(d)

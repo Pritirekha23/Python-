@@ -69,5 +69,6 @@ fun(12,k=6)
 print('^^^^^^^^')
 d={'p':2,'k':5}
 fun(12,**d)
+fun(12,p=2,k=5) # we can write this but this is nopt good way
 
 

@@ -40,7 +40,7 @@ msg(gf='yuu')
 #NOTE-
   # write default argument after non-default argument
   #or
-    # we can write non-default argument after default argument
+    # we cant write non-default argument after default argument
 
 #SyntaxError: non-default argument follows default argument
 

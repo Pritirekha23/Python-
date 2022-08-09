@@ -24,6 +24,8 @@ fun(5)
 
 # print and return both are completely different things in python .
 
+
+# it will execute one time so here we can write like this .
 def fun(b):
     if b>6:
       return b

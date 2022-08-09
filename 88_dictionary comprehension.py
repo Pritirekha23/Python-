@@ -10,7 +10,7 @@ print(d)
 print(type(d))
 
 #find the area of  circle
-print('working with list to create dict coprehensions ex')
+print('working with list to create dict comprehensions ex')
 l=[2,3,4.2,5.6,7.8]
 d={i:3.14*i*i for i in l}
 print(d)
