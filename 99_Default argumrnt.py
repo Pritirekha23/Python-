@@ -1,6 +1,6 @@
 # WHAT IS  DEFAULT ARGUMENT
  #Default argument means optional argument.
- #In default argument at the time of function calling if we not pass argumrnt then it will considerthe default value.
+ #In default argument at the time of function calling if we not pass argument then it will consider the default value.
 
 
 
@@ -62,9 +62,9 @@ def student(name,id,mark,email='no mail'):
 
 student('priti',156,555)
 
+print("------")
 
-
-def student(name,id,mark,email='no mail',addr='no'):
+def student(name,id,mark,email,addr='no'):
         print('name is',name)
         print('id is',id)
         print('mark is',mark)

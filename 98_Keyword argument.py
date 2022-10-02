@@ -1,9 +1,9 @@
 # 2) Keyword argument
   # ISSUES WITH POSITINAL ARGUMENT 
-     # At the time of functional calling we will pass these  arguments in CORRECT POSITIONAL ORDER , otherwise it we may get unexpected result
+     # At the time of functional calling we will pass these  arguments in CORRECT POSITIONAL ORDER , otherwise we may get unexpected result
 
 
-# by using keyword argument we cal solve this issues.
+# by using keyword argument we can solve this issues.
  #Keyword argument
      # In Keyword argument at the time of function calling we have to pass these arguments by using keyword(parameter name).Here order is not important
 
@@ -37,7 +37,7 @@ cal(2,b=3,c=4)
 #cal(a=2,4,5)    cal(a=2,4,5) SyntaxError: positional argument follows keyword argument
 
 #cal(3,a=3,5)
-#SyntaxError: positional argument follows keyword argument --- 1st it will check the syntax thats why here we get synatx error instead of multiole value error
+#SyntaxError: positional argument follows keyword argument --- 1st it will check the syntax thats why here we get synatx error instead of multiple value error
 
 
 

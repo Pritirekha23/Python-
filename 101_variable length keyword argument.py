@@ -42,7 +42,7 @@ fun(322,4,5,33,3,333,a=8,b=7)
 
 print('ex-5')
 #def fun(x,**a,*k):
-   # we cant write variable lentgh keyword argument aftyer variable length non-keywordarguement.
+   # we cant write variable lentgh keyword argument after variable length non-keywordarguement.
 #    print(a)
  #   print(x)
   #  print(k)

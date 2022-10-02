@@ -21,12 +21,16 @@ print(not False)
 #1 and
 print("non-boolean and")
 print(10 and 27)
+print(34 and 2)
 print(0 and 12)
+print(33 and 0)
 print('surendra' and 'surendra panda')
 #2 or
 print("non-boolean or")
 print(10 or 27)
+print(34 or 2)
 print(0 or 12)
+print(11 or 0)
 print('surendra' or 'surendra panda')
 #3
 print("non-boolean not")

@@ -7,7 +7,7 @@
    #4)Variable length argument
 
 #1)Positional argumnet
-   # Positional argument means at the time of functional calling we will pass these  arguments in CORRECT POSITIONAL ORDER , otherwise it we may get unexpected result. This is also called required argument.
+   # Positional argument means at the time of functional calling we will pass these  arguments in CORRECT POSITIONAL ORDER , otherwise  we may get unexpected result. This is also called required argument.
    
 
 print('positional argument ex-1')
@@ -32,7 +32,7 @@ cal(2,2,3)
 
 #cal([2,4,5]) # this is a list it will store only in a so here we get an TypeError: cal() missing 2 required positional arguments: 'b' and 'c'
 
-# cal() TypeError: cal() missing 2 required positional arguments: 'b' and 'c'  
+# cal() TypeError: cal() missing 2 required positional arguments: 'a' 'b' and 'c'  
 
 cal([3,2,6],[4,5,6],[2,3,4])
 cal((),[],{})
@@ -45,7 +45,12 @@ def fun():
 fun()
 #fun(4) #TypeError: fun() takes 0 positional arguments but 1 was given
 #fun(None)
-#None means it will it as one argument ,TypeError: fun() takes 0 positional arguments but 1 was given
+#None means it will treat as one argument ,TypeError: fun() takes 0 positional arguments but 1 was given
 #fun(0)
 #TypeError: fun() takes 0 positional arguments but 1 was given
 
+def sum(x,y):
+   c=x+y
+   print(c)
+x=2;y=3
+sum(x,y)

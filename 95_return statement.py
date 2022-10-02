@@ -123,7 +123,7 @@ def cal(p,c,m,b,i,e):
 
 print('average mark is',cal(60,60,80,70,98,56))
 
-
+print('------')
 # or here we will gate output in the form of tuple
 def cal(p,c,m,b,i,e):
     tm=p+c+m+b+i+e

@@ -1,4 +1,4 @@
-#Tpes of variables according to the scope
+#Types of variables according to the scope
 # We can not access all the variables at all locations of the programs it always depend on the variables where we declared.
 # two types---local variable and global variable
 

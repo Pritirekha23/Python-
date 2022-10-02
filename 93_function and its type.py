@@ -12,9 +12,9 @@
 # if we will not use function it means same code we will copy and paste multiple times .
 
 # It is two types --
-  # Build in function(predefined/primitive/primary/libarary functions) -- ready-to-use
-  # User defined function
+  # Built in function(predefined/primitive/primary/libarary functions) -- ready-to-use
 
+  # User defined function
 # define user define function 
   # def keyword is used to defined user defined function
   # when we call the function it will execute ,so function is not execute automatically.
@@ -66,6 +66,7 @@ def num(x,y,z):
     print(id(y))
     print(id(z))
     print(x,y,z)
+
 a,b,c=10,20,30
 num(a,b,c)
 print('outside function')
@@ -78,6 +79,7 @@ print(id(c))
 print('ex-4')
 # now x memory location will change bcz we modify the x value
 def num(x,y,z):
+    print(x)
     print(id(x))  # here the memory location of x is same to a bcz holding same value 
     x=999   # here we modify x so the memory location of x is change here
     print('inside function')

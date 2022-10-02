@@ -33,7 +33,7 @@ def fun(*args):
   print(args)
 fun(12,3,4,3.2,[2,4,6,7],True,False,20+3j)
 
-print('example-2 of -variable length non-keyword argument +positional argument')
+print('example-3 of -variable length non-keyword argument +positional argument')
 def fun(x,*a):
   print('x is ',x)
   print('a is ',a)
@@ -92,7 +92,7 @@ def fun(x=12,*A):
   print('A is',A)
   print('x is',x)
 
-fun(12,342,56)
+fun(125,342,56)
 #fun(88,34,54,6,7,x=38) #TypeError: fun() got multiple values for argument 'x'
 
 
@@ -138,7 +138,7 @@ print("exaple--116 ,k+p+d")
   #print(n)
   #print(x)
 
-#fun(2,4,5,)
+#fun(2,4,5,56)
 
 
 
@@ -150,7 +150,7 @@ def fun(a,b,x=10,*n):
   print(x)
 
 #fun(12,34,x=23,22,33)
-#positional argument can not appear aftyer keyword argument
+#positional argument can not appear after keyword argument
 
 
 

@@ -25,7 +25,7 @@ else:
 
 
 print('program using functions ex-1')
-#here we are using minimum code as comare to the previous program .
+#here we are using minimum code as compare to the previous program .
 def evenodd(num):
     if num%2==0:
         print('even')
