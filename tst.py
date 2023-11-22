@@ -1,5 +1,4 @@
-# Types of Recursion
- 
+# Types of python Recursion
 # Direct recursion
 # Indirect recursion
 # Tail recursion
